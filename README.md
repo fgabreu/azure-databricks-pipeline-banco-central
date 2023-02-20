@@ -15,7 +15,8 @@ O arquivo contendo os valores está no formato CSV.
 
 Estruturação do Projeto:
 
-![Pipeline](https://user-images.githubusercontent.com/57818977/220190496-0f6bf440-b60c-44a3-ac88-bfbcad29c84d.png)
+![DICIONARIO DE DADOS](https://user-images.githubusercontent.com/57818977/220191118-37c808a2-e5c2-436f-b73d-3b7821a538de.png)
+
 
 To Do:
 
@@ -32,3 +33,7 @@ Databricks:
 Data Factory:
 - Criar uma atividade de procedure para executar a procedure de conversão do Azure SQL;
 - Criar uma atividade de copiar buscando os dados da tabela final com dados convertidos e salvar como PARQUET no blob.
+
+RESULTADO FINAL PIPELINE AZURE DATAFACTORY:
+
+![Pipeline-lab02](https://user-images.githubusercontent.com/57818977/220191189-ef2c9b01-57ef-44df-bb6a-fb7faf70e4ce.png)
