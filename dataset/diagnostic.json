@@ -1,0 +1,22 @@
+{
+    "now": "2022-08-19T14:29:51.139Z",
+    "perfNow": 1450029.2999999989,
+    "diagnosticCorrelation": "ca1bdd21-d1a6-4d7a-9b0f-64d58a6876b1",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.081222.6",
+        "environmentType": 3,
+        "resourceName": "df-estudos",
+        "resourceRegion": "eastus",
+        "resourceGroup": "Estudos-Azure",
+        "subscriptionId": "f9090f81-02bc-45d2-89d2-9bfe48adf4a3",
+        "sessionId": "1vx7t",
+        "operationId": "+8UbQ",
+        "gitType": "GitHub"
+    },
+    "additionalInfo": {
+        "selectedResource": "lab02_blob_felipeabreu",
+        "selectedResourceType": "dataset"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "api_dolar_felipeabreu",
+    "properties": {
+        "description": "Coleta da cotação do dolar no Banco Central",
+        "linkedServiceName": {
+            "referenceName": "api_dolar_felipe_abreu",
+            "type": "LinkedServiceReference"
+        },
+        "folder": {
+            "name": "felipe_abreu"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

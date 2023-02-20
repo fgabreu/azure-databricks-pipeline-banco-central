@@ -1,0 +1,37 @@
+{
+    "name": "lab02_blob_felipeabreu",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "blob_felipeabreu",
+            "type": "LinkedServiceReference"
+        },
+        "folder": {
+            "name": "felipe_abreu"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "folderPath": "Lab02",
+                "container": "felipe-abreu"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": [
+            {
+                "name": "cotacaoCompra",
+                "type": "DOUBLE"
+            },
+            {
+                "name": "cotacaoVenda",
+                "type": "DOUBLE"
+            },
+            {
+                "name": "dataHoraCotacao",
+                "type": "INT96"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

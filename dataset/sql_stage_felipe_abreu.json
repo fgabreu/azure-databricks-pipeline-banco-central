@@ -1,0 +1,33 @@
+{
+    "name": "sql_stage_felipe_abreu",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureSqlDatabase1_felipeabreu",
+            "type": "LinkedServiceReference"
+        },
+        "folder": {
+            "name": "felipe_abreu"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "cotacaoCompra",
+                "type": "varchar"
+            },
+            {
+                "name": "cotacaoVenda",
+                "type": "varchar"
+            },
+            {
+                "name": "dataHoraCotacao",
+                "type": "varchar"
+            }
+        ],
+        "typeProperties": {
+            "schema": "dolar_felipe_abreu",
+            "table": "dolar_stage_felipe_abreu"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
