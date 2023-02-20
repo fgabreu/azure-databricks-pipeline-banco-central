@@ -11,8 +11,6 @@ Arquitetura Proposta:
 
 O link API do Banco Central com os valores do dólar: https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='01-01-2019'&@dataFinalCotacao='12-31-2025'&$top=9000&$format=text/csv&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao
 
-O arquivo contendo os valores está no formato CSV.
-
 Estruturação do Projeto:
 
 ![DICIONARIO DE DADOS](https://user-images.githubusercontent.com/57818977/220191118-37c808a2-e5c2-436f-b73d-3b7821a538de.png)
