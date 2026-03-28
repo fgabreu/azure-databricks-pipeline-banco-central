@@ -1,4 +1,4 @@
-# Proj-02---Azure
+# Data Pipeline MuseusBR
 Projeto 02 Big Data - Azure 
 
 Usando o Azure Databricks, crie um pipeline para coletar os valores do dólar da API do Banco Central e inserir essas informações no Azure SQL, conforme apresentado no desenho abaixo. No Azure SQL crie uma Stored Procedure para converte o tipo dos dados para data e float/money/decimal e depois retornar um arquivo (via Data Factory) PARQUET no Blob Azure. 
